@@ -158,7 +158,8 @@
     height: 88px;
 }
 
-.support-banner-info , .hot-deal-info {
+.support-banner-info,
+.hot-deal-info {
     text-align: center;
 }
 
@@ -201,8 +202,22 @@
     line-height: 30px;
     margin: 24px 0 32px 0;
 }
-.hot-deal-img{
+
+.hot-deal-img {
     width: 318px;
     height: 420px;
     margin: 100px 0 100px 186px;
 }
+
+/* Social Media content */
+.social-media-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-pic {
+    width: 342px;
+    height: 396px;
+}
+
