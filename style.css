@@ -83,7 +83,8 @@
 /* featured banner box */
 .featured-banner,
 .featured-flower-name,
-.support-banner {
+.support-banner,
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -160,7 +161,8 @@
 }
 
 .support-banner-info,
-.hot-deal-info {
+.hot-deal-info,
+.footer-container {
     text-align: center;
 }
 
@@ -190,7 +192,7 @@
     font-weight: 800;
 }
 
-.hot-deal-title>span {
+span {
     color: #E55473;
 }
 
@@ -271,3 +273,31 @@
     margin-right: 10px;
 }
 
+/* Footer section */
+
+.footer {
+    width: 100%;
+    height: 449px;
+    background: #111010;
+    color: white;
+}
+
+.footer-title {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 24px 0 32px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
