@@ -37,13 +37,14 @@
 
 }
 
-.shop-now {
+.btn-primary {
     border: none;
     font-size: 20px;
     padding: 20px 43px;
     border-radius: 8px;
     background: #E55473;
     color: white;
+    font-weight: 700;
 
 }
 
@@ -210,7 +211,7 @@
 }
 
 /* Social Media content */
-.social-media-container{
+.social-media-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -219,5 +220,54 @@
 .social-media-pic {
     width: 342px;
     height: 396px;
+}
+
+/* Latest Deals */
+
+.latest-deal-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deal {
+    width: 1440px;
+    height: 449px;
+    padding: 8px;
+    background-image: url("flower/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    margin: 128px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.latest-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 15px 0 48px 0;
+}
+
+.latest-deal-input {
+    width: 700px;
+    height: 64px;
+    padding-left: 22px;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    margin-right: 10px;
 }
 
