@@ -3,18 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Love Station</title>
+    <title>Flower Station</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="assets/Amazon_fav.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="shortcut icon" href="flower/pngwing 7.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Header section -->
+
+    <!-- Navbar sections -->
+    <div class="navbar">
+      <div class="nav-logo">
+        <div class="logo"><span class="logo">Flower</span>Station</div>
+      </div>
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-sec">Bangladesh</p>
+        </div>
+      </div>
+      <div class="nav-search">
+        <select class="search-select" id="">
+          <option value="">All</option>
+        </select>
+        <input class="search-input" placeholder="Search Flower" />
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+
+      <div class="nav-signin border">
+        <p><span class="signin">Hello, Sign in</span></p>
+        <p class="nav-second">Account & List</p>
+      </div>
+
+      <div class="nav-return border">
+        <p><span class="signin">Returns</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+      </div>
+    </div>
+
     <!-- banner 1 -->
     <div class="header">
       <div class="header-banner-info">
@@ -151,7 +198,11 @@
           <h2 class="latest-deal-title">Get The Latest Deals</h2>
           <p class="latest-deal-description">$30 coupon for first shopping</p>
           <div class="latest-deal-sub">
-            <input type="text" class="latest-deal-input" placeholder="Enter your email here...."/>
+            <input
+              type="text"
+              class="latest-deal-input"
+              placeholder="Enter your email here...."
+            />
             <button class="btn-primary">Subscribe</button>
           </div>
         </div>
@@ -161,14 +212,13 @@
     <!-- Footer Section -->
     <footer class="footer">
       <div class="footer-container">
-        <h1 class="footer-title">
-          <span>Flower</span>Shop
-        </h1>
+        <h1 class="footer-title"><span>Flower</span>Shop</h1>
         <p class="footer-description">
-          It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout.
         </p>
         <div class="copyright">
-          &copy; 2020-2023, FlowerShop.com. All rights reserved. 
+          &copy; 2020-2023, FlowerShop.com. All rights reserved.
         </div>
       </div>
     </footer>
