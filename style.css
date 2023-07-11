@@ -81,7 +81,8 @@
 
 /* featured banner box */
 .featured-banner,
-.featured-flower-name {
+.featured-flower-name,
+.support-banner {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -134,4 +135,37 @@
     line-height: 35px;
     margin-top: 20px;
     text-decoration-line: underline;
+}
+
+/* suppor & service banner */
+
+.support-banner {
+    margin: 128px 0;
+}
+
+.support-banner-container {
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(39, 39, 39, 0.05);
+}
+
+.support-banner-icon {
+    width: 88px;
+    height: 88px;
+}
+
+.support-banner-info {
+    text-align: center;
+}
+
+.support-banner-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    margin-top: 24px;
 }
